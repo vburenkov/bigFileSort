@@ -1,0 +1,17 @@
+﻿Sarah and Ira drove to the store.
+Jenny and I opened all the gifts.
+The cat and dog ate.
+My parents and I went to a movie.
+Mrs. Juarez and Mr. Smith are dancing gracefully.
+Samantha, Elizabeth, and Joan are on the committee.
+The ham, green beans, mashed potatoes, and corn are gluten-free.
+The paper and pencil sat idle on the desk.
+Apple
+Cherry is the best
+Banana is yellow
+Mary and Samantha left on the bus before I arrived, so I did not see them at the bus station.
+Dependent clauses begin with subordinating conjunctions.
+Complex sentences are often more effective than compound sentences because a complex sentence indicates clearer and more specific relationships
+You can also use the Task.Run methods to create and start a task in one operation
+You can also use the TaskFactory.StartNew method to create and start a task in one operation. 
+Zoo is very big
