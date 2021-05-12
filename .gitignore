@@ -1,0 +1,14 @@
+
+*.pdb
+*.dll
+*.json
+*.exe
+*.props
+*.cache
+.vs/Merger/v16/.suo
+Merger/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+Merger/obj/Debug/netcoreapp3.1/Merger.AssemblyInfo.cs
+Merger/obj/Debug/netcoreapp3.1/Merger.csproj.FileListAbsolute.txt
+Merger/obj/Merger.csproj.nuget.g.targets
+Merger/bin/Debug/netcoreapp3.1/data.txt
+Merger/bin/Debug/netcoreapp3.1/Chunks.txt

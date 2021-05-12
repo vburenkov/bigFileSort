@@ -10,12 +10,18 @@ namespace Merger
         private const Int64 _1MB = 1024 * 1024;
         private const Int64 _1Gb = _1MB * 1024;
 
-        private const string WorkDir = @"C:\Users\Valentine\source\repos\Merger\";
+        private static string WorkDir = Directory.GetCurrentDirectory();
 
         static void Main(string[] args)
         {
             var bigFilePath = Path.Combine(WorkDir, "data.txt");
             var sortDir = Path.Combine(WorkDir, "Sort");
+
+            if (!Directory.Exists(sortDir))
+            {
+                Directory.CreateDirectory(sortDir);
+            }
+
             var lines = File.ReadAllLines("Chunks.txt");
 
             Process.Start("explorer", sortDir);
@@ -24,7 +30,7 @@ namespace Merger
 
             IFileGenerator<FileEntry> gen = new SimpleFileGenerator(entryGenerator,
                 bigFilePath,
-                100 * _1MB);
+                500 * _1MB);
 
             TimerHelper.WithTimer(() => gen.Generate(), "Generate");
 
